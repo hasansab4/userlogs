@@ -26,7 +26,7 @@ const App = () => {
       // console.log(members);
     })
     .catch((error)=>{
-      console.log(error)
+      console.log(error);
     })    
   },[])
   const getUniqueId = () => Math.floor(Math.random()* 999999);
